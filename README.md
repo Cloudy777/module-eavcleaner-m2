@@ -13,6 +13,7 @@ Run `bin/magento` in the Magento 2 root and look for the `eav:` commands.
 * `eav:attributes:remove-unused` Remove attributes with no values set in products and attributes that are not present in any attribute sets.
 * `eav:media:remove-unused` Remove unused product images.
 * `eav:clean:attributes-and-values-without-parent` Remove orphaned attribute values - those which are missing a parent entry (with the corresponding `backend_type`) in `eav_attribute`.
+* `eav:config:restore-use-default-value` Check if config admin value and storeview value aren't the same and update config admin value from storeview value. Delete the storeview values afterwards.
 
 ## Dry run
 Use `--dry-run` to check result without modifying data.

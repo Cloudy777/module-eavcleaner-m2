@@ -8,6 +8,7 @@
                 <item name="media:remove-unused" xsi:type="object">Hackathon\EAVCleaner\Console\Command\RemoveUnusedMediaCommand</item>
                 <item name="attributes:remove-unused" xsi:type="object">Hackathon\EAVCleaner\Console\Command\RemoveUnusedAttributesCommand</item>
                 <item name="clean:attributes-and-values-without-parent" xsi:type="object">Hackathon\EAVCleaner\Console\Command\CleanUpAttributesAndValuesWithoutParentCommand</item>
+                <item name="attributes:override-default-value" xsi:type="object">Hackathon\EAVCleaner\Console\Command\OverrideDefaultWithStoreValueCommand</item>
             </argument>
         </arguments>
     </type>
